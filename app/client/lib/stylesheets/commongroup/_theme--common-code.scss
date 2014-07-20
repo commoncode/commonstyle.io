@@ -1,0 +1,32 @@
+/* Site name */
+.theme--common-code{
+	.common-features__section{
+		&:nth-child(1){
+			/* We leave this blank as it is the header. */
+		}
+		&:nth-child(2){
+			background-color: #ea178e;
+			*{
+				color: white;
+			}
+		}
+		&:nth-child(3){
+			background-color: #28ade3;
+			*{
+				color: white;
+			}
+		}
+		&:nth-child(4){
+			background-color: #fdee21;
+			*{
+				color: black;
+			}
+		}
+		&:nth-child(5){
+			background-color: black;
+			*{
+				color: white;
+			}
+		}
+	}
+}
