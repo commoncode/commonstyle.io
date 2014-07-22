@@ -1,0 +1,3 @@
+[submodule "app/fabfile"]
+	path = app/fabfile
+	url = git@github.com:commoncode/meteorfabfile.git
