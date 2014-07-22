@@ -1,4 +1,4 @@
-vhost = {
+vhosts = {
 	'commonstyle.io': {
 		'hosts': ['ip-10-0-5-86.ap-southeast-2.compute.internal'],
 		'gateway': 'meteorhosts-gw-ap-southeast-2a.commoncode.com.au',
