@@ -1,0 +1,574 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"page",
+				"page_counter"
+			],
+			[
+				"team_",
+				"team_affiliate"
+			],
+			[
+				"team",
+				"team_registration"
+			],
+			[
+				"csv",
+				"csv"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"resu",
+				"result_instance"
+			],
+			[
+				"res",
+				"result_instance"
+			],
+			[
+				"Result",
+				"ResultsForm"
+			],
+			[
+				"request",
+				"request"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"req",
+				"request_list"
+			],
+			[
+				"model",
+				"model_instance"
+			],
+			[
+				"post",
+				"post"
+			],
+			[
+				"blog",
+				"blog"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"Comment",
+				"Comment"
+			],
+			[
+				"ac",
+				"activities"
+			],
+			[
+				"new",
+				"newActivity"
+			],
+			[
+				"activ",
+				"activity_id"
+			],
+			[
+				"object",
+				"object_id"
+			],
+			[
+				"objec",
+				"objectId"
+			],
+			[
+				"que",
+				"queryTest"
+			],
+			[
+				"FORM",
+				"formDataObject"
+			],
+			[
+				"acti",
+				"activity"
+			],
+			[
+				"newEvent",
+				"newEvent"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"ng",
+				"ng-show"
+			],
+			[
+				"signup",
+				"signup"
+			],
+			[
+				"Dashboard",
+				"Dashboard"
+			],
+			[
+				"event",
+				"eventBriteJSON"
+			],
+			[
+				"controller",
+				"controller"
+			],
+			[
+				"He",
+				"HelloCtrl"
+			],
+			[
+				"Hell",
+				"hello"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 23,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/public/lib/stylesheets/style.min.css",
+			"settings":
+			{
+				"buffer_size": 22190,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/application/app.js",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/application/app.css",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/views/economica.html",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/lib/plugins/script.js",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/server/env_config.js",
+		"/Users/nickbyrne/Sites/CommonCode/fullpage.js test/fullpage.html",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/plugins/fullpage/README.md",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/app.js",
+		"/Users/nickbyrne/Sites/CommonCode/economica.io/app/client/app.html",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/importdata/admin.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/importdata/models.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/templates/team_management/index.html",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/registrations/settings.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/forms.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/templates/team_management/login.html",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/views.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/registrations/urls.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/urls.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/importdata/views.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/templates/team_management/payment_list.html",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/team_management/templates/team_management/teams_list.html",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/importdata/urls.py",
+		"/Users/nickbyrne/Sites/django_sites/django-allstars/registrations/importdata/import_script.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/trainingscene/settings.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/trainingscene/local_settings.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/trainingscene/wsgi.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/templates/blog/header.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/Procfile",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/Procfile",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/trainingscene/local_settings.py.incomplete",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/templates/blog/index.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/.gitignore",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/requirements.txt",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/admin.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/templates/blog/post_detail.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/templates/blog/footer.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/templates/blog/post_results.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/views.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/forms.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/models.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/urls.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/blog/templates/blog/create_session.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/templates/admin/base_site.html",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/trainingscene/urls.py",
+		"/Users/nickbyrne/Sites/django_sites/django-trainingscene/trainingscene/db.sqlite3",
+		"/Users/nickbyrne/Sites/django_sites/fitnessgames/appengine-try-python-flask/app.yaml",
+		"/Users/nickbyrne/Sites/parse-angular-demo/client/index.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/services.js",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/directives.js",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/home.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/controllers.js",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/app.js",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/dashboard.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/eventDetail_public.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/index.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/registerEventModal.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/eventDetail.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/top_nav.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/header.html",
+		"/Users/nickbyrne/Sites/fitnessgames/index.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/newEvent.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/dashboard_noNG.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/partials/footer.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/dashboard_noNG.html",
+		"/Users/nickbyrne/Sites/fitnessgames/eventGrid.html",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/filters.js",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/parse-app.js",
+		"/Users/nickbyrne/Sites/fitnessgames/app/js/angular-parse.js",
+		"/Users/nickbyrne/Downloads/TodoApp/index.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/js/angular-parse.js",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/newEvent.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/dashboard.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/eventGrid.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/js/parse-app.js",
+		"/Users/nickbyrne/Sites/gymsistant/app/js/app.js",
+		"/Users/nickbyrne/Sites/gymsistant/app/js/controllers.js",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/header.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/js/services.js",
+		"/Users/nickbyrne/Sites/gymsistant/index.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/home.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/signup.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/index.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/js/directives.js",
+		"/Users/nickbyrne/Sites/gymsistant/js/auth.js",
+		"/Users/nickbyrne/Sites/gymsistant/js/application.js",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/footer.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/css/simple-sidebar.css",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/sidebar.html",
+		"/Users/nickbyrne/Sites/gymsistant/css/flat-ui.css",
+		"/Users/nickbyrne/Sites/gymsistant/css/style.css",
+		"/Users/nickbyrne/Sites/gymsistant/sidebar",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/eventDetail.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/css/flat-ui.css",
+		"/Users/nickbyrne/Sites/gymsistant/app/npm-debug.log",
+		"/Users/nickbyrne/Sites/gymsistant/node_modules/protractor/node_modules/selenium-webdriver/docs/namespace_goog.html",
+		"/Users/nickbyrne/Downloads/Front End Developer test/index.html",
+		"/Users/nickbyrne/Downloads/Front End Developer test/css/main.css",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/parse-demo.html",
+		"/Users/nickbyrne/Sites/gymsistant/parse/app.js",
+		"/Users/nickbyrne/Sites/gymsistant/parse/public/javascripts/app.js",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/login.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/bower_components/bootstrap/dist/css/jumbotron.css",
+		"/Users/nickbyrne/Sites/gymsistant/app/bower_components/flat-ui-official/index.html",
+		"/Users/nickbyrne/Sites/gymsistant/app/partials/partial1.html",
+		"/Users/nickbyrne/Gymsistant/public/javascripts/app.js",
+		"/Users/nickbyrne/Angular/angularjs-parse-resource/public/javascripts/app.js",
+		"/Users/nickbyrne/Angular/Gymsistant/public/javascripts/angular-parse.js",
+		"/Users/nickbyrne/Angular/Gymsistant/public/javascripts/app.js",
+		"/Users/nickbyrne/Angular/Gymsistant/views/index.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/js/app.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/angularjs-parse-resource/views/signup.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/js/services.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/js/directives.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/js/controllers.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/index.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/partials/CreateEvent.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/partials/partial1.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/partials/login.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/partials/welcome.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/angularjs-parse-resource/public/javascripts/app.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/views/template_nav.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/views/template_dashboard.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/index2.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/views/header.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/scripts/app.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/scripts/ui.js",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/views/dashboard.html",
+		"/Users/nickbyrne/Angular/gymsistant/angular-seed/app/scripts/vendor.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theme",
+			"nth-child(4)",
+			"background-color",
+			"site-hd__logo",
+			"context",
+			"template",
+			" }}</",
+			"DATABASE_URL",
+			"timezone",
+			"eventDetail",
+			".get",
+			"owner",
+			"ParseResource",
+			"query",
+			"todo",
+			"user",
+			"back",
+			"['$scope', function($scope) {",
+			"$scope.authentication",
+			"md-3",
+			"login",
+			"sign in",
+			"sign",
+			".run",
+			"search-query-2",
+			"search-query2",
+			"button",
+			"navbar-inverse",
+			".navbar {",
+			"navbar",
+			".save",
+			"get",
+			"$http",
+			"true",
+			"view",
+			"save",
+			"content",
+			"main.brand",
+			"AppCtrl",
+			"Main",
+			"AppCtrl",
+			"my profile",
+			"dbName"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"publicEventDetail",
+			"['$scope','$location', function($scope, $location) {",
+			"!$scope.authentication",
+			"md-4"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/public/lib/stylesheets/style.min.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 22190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22190,
+								22190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "commonstyle.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 755.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

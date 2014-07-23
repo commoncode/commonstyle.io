@@ -294,7 +294,7 @@ try help out and use your feedback to improve the documentation.
 It is strongly encouraged that you thoroughly read the source of inuit.css’
 files, particularly `_inuit.scss`.
 
-### Demos
+### Demos.
 
 Although there are no docs as such, there is [a dedicated inuit.css jsFiddle
 account](http://jsfiddle.net/user/inuitcss/fiddles/) which houses plenty of
