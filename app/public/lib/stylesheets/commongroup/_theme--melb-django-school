@@ -1,0 +1,26 @@
+/* Site name */
+.theme--melb-django-school{
+	.melb-django-features__section{
+		&:nth-child(1){
+			/* We leave this blank as it is the header. */
+		}
+		&:nth-child(2){
+			background-color: #ea178e;
+			*{
+				color: white;
+			}
+		}
+		&:nth-child(3){
+			background: #42c69c;
+			*{
+				color: white;
+			}
+		}
+		&:nth-child(4){
+			background-color: #2d876a;
+			*{
+				color: black;
+			}
+		}
+	}
+}
