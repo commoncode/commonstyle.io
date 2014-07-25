@@ -1,7 +1,9 @@
 /* Site name */
 .theme--common-people{
-	.site-hd__logo {
-		top: 40%;
+	.header__login {
+		top: 75%;
+		left: 50%;
+		position: absolute;
 	}
 	.common-features__section{
 		&:nth-child(1){
