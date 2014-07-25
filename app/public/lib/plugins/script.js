@@ -9,30 +9,38 @@ function rgb2luma(rgb) {
 	);
 }
 
+var commonfullpage = {};
+
+commonfullpage.build = function() {
+  $('#fullpage').fullpage({
+    css3: true,
+    verticalCentered: false,
+    navigation: true,
+    navigationPosition: 'right',
+
+    onLeave: function(anchorLink, index, slideAnchor, slideIndex){
+      var luma = rgb2luma( $('.section.active').css( "background-color" ) ) ;
+      if (luma < 160){
+        $('#fullPage-nav').addClass( "-light")
+      }else{
+        $('#fullPage-nav').removeClass( "-light")
+      }
+    },
+  });
+
+  $('.js-moveSectionDown').click(function(){
+    $.fn.fullpage.moveSectionDown();
+  })
+}
+
+commonfullpage.rebuild = function() {
+  $.fn.fullpage.destroy('all');
+  commonfullpage.build();
+}
 
 $(document).ready(function() {
-
-	$('#fullpage').fullpage({
-		css3: true,
-		verticalCentered: false,
-		navigation: true,
-		navigationPosition: 'right',
-
-		onLeave: function(anchorLink, index, slideAnchor, slideIndex){
-			var luma = rgb2luma( $('.section.active').css( "background-color" ) ) ;
-			if (luma < 160){
-				$('#fullPage-nav').addClass( "-light")
-			}else{
-				$('#fullPage-nav').removeClass( "-light")
-			}
-		},
-	});
-
-	$('.js-moveSectionDown').click(function(){
-		$.fn.fullpage.moveSectionDown();
-	})
+  commonfullpage.build();
 });
-
 
 $(window).resize(function() {
 
