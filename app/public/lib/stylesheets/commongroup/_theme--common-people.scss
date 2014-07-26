@@ -5,18 +5,27 @@
 		left: 50%;
 		position: absolute;
 	}
+	.common-features .profile {
+	  textarea, input {
+		color: #000;
+	  }
+	  form {
+	  	margin-bottom: 1em;
+	  }
+	  h2, h3, h4 {
+	  	margin: 0 0 0.5em;
+	  	padding: 0em;
+	  }
+	  h2 {
+	  	margin-top: 1em;
+	  }
+	}
 	.common-features__section{
 		&:nth-child(1){
 			/* We leave this blank as it is the header. */
 		}
 		&:nth-child(2){
 			background-color: #ea178e;
-			*{
-				color: white;
-			}
-		}
-		&:nth-child(3){
-			background-color: #28ade3;
 			*{
 				color: white;
 			}
@@ -29,6 +38,12 @@
 		}
 		&:nth-child(5){
 			background-color: black;
+			*{
+				color: white;
+			}
+		}
+		&.people{
+			background-color: #28ade3;
 			*{
 				color: white;
 			}

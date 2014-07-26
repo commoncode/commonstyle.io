@@ -1,9 +1,7 @@
 // Function to find the return the luminance value.
 // Useful to compare if a color can will have enough contrast.
 function rgb2luma(rgb) {
-  console.log(rgb);
 	rgb = rgb.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)/);
-	console.log(rgb);
 	return Math.sqrt(
 		rgb[1] * rgb[1] * .299 +
 		rgb[2] * rgb[2] * .587 +
