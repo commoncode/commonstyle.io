@@ -1,27 +1,51 @@
 /* Site name */
 .theme--melb-django-school{
-	.common-features__section{
+	.melb-django-school__section{
+		background-image: url('../img/page-bg.png');
+		background-color: #F8F8F8;
+		padding: 3% 15% 0 15%;
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		text-transform: uppercase;
+			&>:last-child {
+				margin-bottom: 0;
+				}
 		&:nth-child(1){
 			/* We leave this blank as it is the header. */
 		}
 		&:nth-child(2){
 			background-color: #42c69c;
 			.welcome{
+				@extend .one-whole;
 				.welcome__header{
-					text-align: center;
-					.welcome__header-title{
-					}
+					@extend .grid__item;
+					@extend .text--center;
 				}
 				.welcome__twitter-title{
 					font-size: 24px;
+					@extend .text--center;
+				}
+				.welcome__twitter-form{
+					@extend .grid;
+					.welcome__twitter-form-tweet{
+						@extend .two-thirds;
+					}
 				}
 			}
 			.skills{
+				@extend .grid;
 				.skills__header-title{
+					@extend .grid__item;
+					@extend .one-whole;
+					@extend .text--center;
 					font-size: 24px;
 				}
 				.skills__list{
-					text-align: center;
+					@extend .grid__item;
+					@extend .one-whole;
+					@extend .text--center;
 					margin-left: 0;
 					.skills__list-item{
 						display: inline-block;
@@ -35,18 +59,46 @@
 			}
 			.contact{
 				.contact__header{
-					text-align: center;
+					@extend .grid;
+					@extend .grid__item;
+					@extend .one-whole;
+					@extend .text--center;
 					.contact__header-title{
 						display: inline-block;
+					}	
+				}	
+				.contact__form{
+					@extend .grid;
+					@extend .two-thirds;
+					margin: 0 auto;
+					.contact__form-field{
+						@extend .grid__item;
+						@extend .one-whole;
 					}
-				}		
+					.contact__form-field--two-fields{
+						@extend .grid__item;
+						@extend .one-half;
+					}
+				}	
 			}	
 		}
-		&:nth-child(3){
+		&.lesson{
 			background-color: #2d876a;
 			*{
 				color: white;
 			}
 		}
+		&.footer{
+			background-color: #364c45;
+			*{
+				color: white;
+				postion: relative;
+				top: 50%;
+				min-width: 30em;
+				max-width: 50%;
+			}
+		}
+
 	}
 }
+
