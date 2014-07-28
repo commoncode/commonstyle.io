@@ -1,48 +1,119 @@
 /* Site name */
-.theme--common-people{
+.theme--common-people {
 	.header__login {
 		top: 75%;
 		left: 50%;
 		position: absolute;
 	}
 	.common-features .profile {
-	  textarea, input {
-		color: #000;
-	  }
-	  form {
-	  	margin-bottom: 1em;
-	  }
-	  h2, h3, h4 {
-	  	margin: 0 0 0.5em;
-	  	padding: 0em;
-	  }
-	  h2 {
-	  	margin-top: 1em;
-	  }
+	
+		/* old styles from common-people */
+		
+		textarea, input {
+			color: #000;
+		}
+		
+		textarea {
+			padding: 5px;
+			width: 90%;
+		}
+		
+		h2, h3, h4 {
+			margin: 1 0 1em 0;
+			padding: 0em;
+			clear: both;
+		}
+		h2 {
+			margin: 0 0 0.5em 0;
+			font-size: 1.2;
+			line-height: normal;
+		}
+		h3 {
+			font-size: 1em;
+			margin-bottom: 0.7em;
+			margin-top: 2em;
+		}
+		h4 {
+			font-size: 1em;
+			margin-bottom: 0.5em;
+			margin-top: 1em;
+		}
+		input[type="submit"], .contact__form-block a, .skills__list a{
+			padding: 0.4em;
+			background: #A5005B;
+			color: #fff;
+			border: none; 
+			display: inline-block; 
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			transition: background-color 100ms linear;
+			text-decoration: none;
+			line-height: normal;
+		}
+		input[type="submit"]:hover, .contact__form-block a:hover, .skills__list a:hover, .skills__list a.has-skill:hover{
+			background-color: #fff;
+			color: #000;
+		}
+		.profile__about {
+			h2 {
+				margin-top:1.5em;
+			}
+		}
+		.skills {
+			h3 {
+				margin-top: 1em;
+			}
+		}
+		.skills__list {
+			list-style-type: none;
+			padding: 0;
+			margin: 0.5em 0 0 0;
+			display: block;
+			overflow: hidden;
+		
+			li {
+				float: left;
+				margin: 0.3em 0.3em 0 0;
+				padding: 0px;
+			}
+			a {
+				color: rgba(255,255,255,0.7);
+				background-color: rgba(165,0,91,0.3);
+			}
+			a.has-skill {
+				background: #A5005B;
+				color: #fff;
+			}
+		}
+		#contact__form {
+			clear: both;
+			overflow: hidden;
+		}
+		.contact__form-block {
+			clear: both;
+			overflow: hidden;
+			margin-bottom: 0.5em;
+		}
+		.mobile-verify, .email-verify {
+			cursor: pointer;
+		}
 	}
-	.common-features__section{
+	.common-features__section {
+		
 		&:nth-child(1){
 			/* We leave this blank as it is the header. */
 		}
 		&:nth-child(2){
 			background-color: #ea178e;
+			padding: 5% 15% 0px 5%;
 			*{
 				color: white;
 			}
-		}
-		&:nth-child(4){
-			background-color: white;
-			*{
-				color: black;
-			}
-		}
-		&:nth-child(5){
-			background-color: black;
-			*{
-				color: white;
-			}
+			
 		}
 		&.people{
+			padding: 10% 15% 0px 5%;
 			background-color: #28ade3;
 			*{
 				color: white;
