@@ -40,6 +40,7 @@ commonfullpage.rebuild = function() {
 
 $(document).ready(function() {
   commonfullpage.build();
+  $("#fullpage").fadeIn(200);
 });
 
 $(window).resize(function() {
