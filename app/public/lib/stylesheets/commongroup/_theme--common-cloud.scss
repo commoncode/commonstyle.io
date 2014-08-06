@@ -5,28 +5,28 @@
 			/* We leave this blank as it is the header. */
 		}
 		&:nth-child(2){
-			background-color: #2ec9ff;
-			*{
-				color: white;
-			}
-		}
-		&:nth-child(3){
-
-			background-color: #f0d175;
+			background-color: #2EC9FF;
 			*{
 				color: black;
 			}
 		}
+		&:nth-child(3){
+
+			background-color: #7D60A8;
+			*{
+				color: white;
+			}
+		}
 		&:nth-child(4){
-			background-color: #ea178e;
+			background-color: #00BCDB;
 			*{
 				color: white;
 			}
 		}
 		&:nth-child(5){
-			background-color: black;
+			background-color: #CCEAF3;
 			*{
-				color: white;
+				color: black;
 			}
 		}
 	}
