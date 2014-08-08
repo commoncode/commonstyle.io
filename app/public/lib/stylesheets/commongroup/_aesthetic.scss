@@ -1,21 +1,21 @@
 /* Override plugin options */
-#fullPage-nav{
+#fp-nav{
 	z-index: 10;
 }
-#fullPage-nav.right{
+#fp-nav.right{
 	right: 0;
 }
-#fullPage-nav span, 
-#fullPage-nav .fullPage-slidesNav span{
+#fp-nav span, 
+#fp-nav .fullPage-slidesNav span{
 	transition: border-color 250ms, color 250ms, background-color 250ms;
 }
-#fullPage-nav.-light span, 
-#fullPage-nav.-light .fullPage-slidesNav span{
+#fp-nav.-light span, 
+#fp-nav.-light .fullPage-slidesNav span{
 	border-color: white;
 	color: white;
 }
-#fullPage-nav.-light li .active span, 
-#fullPage-nav.-light .fullPage-slidesNav .active span{
+#fp-nav.-light li .active span, 
+#fp-nav.-light .fullPage-slidesNav .active span{
 	background-color: #F8F8F8;
 }
 

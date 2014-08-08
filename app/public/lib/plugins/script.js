@@ -21,9 +21,9 @@ commonfullpage.build = function() {
     onLeave: function(anchorLink, index, slideAnchor, slideIndex){
       var luma = rgb2luma( $('.section.active').css( "background-color" ) ) ;
       if (luma < 160){
-        $('#fullPage-nav').addClass( "-light")
+        $('#fp-nav').addClass( "-light")
       }else{
-        $('#fullPage-nav').removeClass( "-light")
+        $('#fp-nav').removeClass( "-light")
       }
     },
   });
