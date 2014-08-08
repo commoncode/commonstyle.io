@@ -30,17 +30,29 @@ commonfullpage.build = function() {
 
   $('.js-moveSectionDown').click(function(){
     $.fn.fullpage.moveSectionDown();
-  })
+  });
+  
 }
 
-commonfullpage.rebuild = function() {
+commonfullpage.rebuild = function(scrollToPage) {
   $.fn.fullpage.destroy('all');
   commonfullpage.build();
+  
+  if (typeof scrollToPage === 'number') {
+    $.fn.fullpage.moveTo(scrollToPage);
+  }
 }
 
 $(document).ready(function() {
   commonfullpage.build();
-  $("#fullpage").fadeIn(200);
+  $("#fullpage").fadeIn(200, function() {
+    //if scrolltopage session value set, scroll to it and clear it.
+    var scrollToPage = Session.get('commonfullpage.ScrollToPage');
+    if (typeof scrollToPage === 'number') {
+      delete Session.keys['commonfullpage.ScrollToPage'];
+      $.fn.fullpage.moveTo(scrollToPage);
+    }
+  });
 });
 
 $(window).resize(function() {
