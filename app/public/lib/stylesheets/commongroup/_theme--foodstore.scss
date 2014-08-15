@@ -1,24 +1,35 @@
 /* Site name */
 .theme--foodstore{
-	.foodstore-features__section{
+	.common-features__section{
 		&:nth-child(1){
 			/* We leave this blank as it is the header. */
-			
 		}
 		&:nth-child(2){
-			background-image: url(img/food.jpg);
+			background-color: #00aa69;
+			*{
+				color: white;
+			}
 		}
 		&:nth-child(3){
-			background: #42c69c;
+			background-color: #00c47c;
 			*{
 				color: white;
 			}
 		}
 		&:nth-child(4){
-			background-color: #2d876a;
+			background-color: #a8e8ba;
 			*{
-				color: black;
+				color: white;
+			}
+		}
+		&:nth-child(5){
+			background-color: #000000;
+			*{
+				color: white;
 			}
 		}
 	}
 }
+
+
+

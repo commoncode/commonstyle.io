@@ -14,6 +14,8 @@ Invite me to a coffee
 
 Customizations of the plugin available upon request for some reasonable price. <a href="http://alvarotrigo.com/#contact-page">Contact me</a>.
 
+Would you like to have a website using fullpage.js functionality but you don't know how to use it? I can do it for you for a reasonable price. <a href="http://alvarotrigo.com/#contact-page">Contact me</a>.
+
 ## Introduction
 Suggestion are more than welcome, not only for feature requests but also for coding style improvements.
 Let's make this a great plugin to make people's lives easier!
@@ -67,7 +69,7 @@ In order to create a landscape slider within a section, each slide will be defin
 	<div class="slide"> Slide 4 </div>
 </div>
 ````
-You can see a fully working example of the HTML structure in the [`example.html` file](https://github.com/alvarotrigo/fullPage.js/blob/master/example.html).
+You can see a fully working example of the HTML structure in the [`demoPage.html` file](https://github.com/alvarotrigo/fullPage.js/blob/master/examples/demoPage.html).
 
 
 ###Initialization
@@ -109,6 +111,8 @@ $(document).ready(function() {
 		touchSensitivity: 15,
 		continuousVertical: false,
 		animateAnchor: true,
+		sectionSelector: '.section',
+		slideSelector: '.slide',
 
 		//events
 		onLeave: function(index, nextIndex, direction){},
@@ -239,6 +243,10 @@ In case of setting it to `true`, it requieres the vendor plugin [`jquery.slimscr
 <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
 <script type="text/javascript" src="jquery.fullPage.js"></script>
 ```
+
+- `sectionSelector`: (default `.section`) Defines the jQuery selector used for the plugin sections. It might need to be changed sometimes to avoid problem with other plugins using the same selectors as fullpage.js..
+
+- `slideSelector`: (default `.slide`)  Defines the jQuery selector used for the plugin slides.  It might need to be changed sometimes to avoid problem with other plugins using the same selectors as fullpage.js.
 
 ## Methods
 
@@ -378,7 +386,7 @@ Example:
 
 ```javascript
 	$('#fullpage').fullpage({
-		onLeave: function(index, direction){
+		onLeave: function(index, nextIndex, direction){
 			//after leaving section 2
 			if(index == '2' && direction =='down'){
 				alert("Going to section 3!");
@@ -486,13 +494,14 @@ If you want your page to be listed here. Please <a href="mailto:alvaro@alvarotri
 
 [![Sony](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sony.gif)](http://www.sony-asia.com/microsite/mdr-10/)
 [![Vodafone](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vodafone.png)](https://www.xone.vodafone.com)
-![docspera](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/docspera.png)
+[![British Airways](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/british-airways-fullpage.gif)](http://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins)
 [![scribe](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/scribe.png)](http://usescribe.com/)
 [![xepler](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/xepler.png)](http://xepler.com/services)
 [![matrimonia](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/matrimonia.png)](http://www.matrimonia.rs/)
 [![myMattioli](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/myMattioli-3.png)](http://mymattioli.it/)
 [![redd](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/redd.png)](http://www.getredd.com/)
 
+- http://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins
 - http://www.sony-asia.com/microsite/mdr-10/
 - https://www.xone.vodafone.com
 - http://www.saltaboombox.com.ar
@@ -539,17 +548,24 @@ If you want your page to be listed here. Please <a href="mailto:alvaro@alvarotri
 - http://www.kesstrio.com
 - http://willontheway.com/
 - http://www.karmaffne.com/
+- http://www.conversionculture.com/
 - http://andreapaolucci.com/
 - http://www.fergalkeenan.com
 - http://spell-star.appspot.com/
 - http://yizeng.me/
 - http://rienpipe.es/
+- http://neolearning.eu/
 - http://sunfishlabs.com/
+- http://unabridgedsoftware.com/
 - http://wc2014.plnwrx.com/
 - http://organice.io/
 - http://www.cima-ecuador.com/
 - http://www.rienpipe.es
 - http://bootstrap.tunerus.ru/nastroyka_pianino/
+- http://moysport.ru/
+- http://www.norttilaakso.fi/
+- http://wcfixtures.co.uk/
+- http://www.dopehustleinc.com/default.php
 
 ## Donations
 Donations would be more than welcome :)
