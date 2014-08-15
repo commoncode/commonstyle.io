@@ -27,7 +27,7 @@
 		&:nth-child(1){
 			/* We leave this blank as it is the header. */
 		}
-		&:nth-child(2){
+		&.info{
 			background-color: #42c69c;
 			.welcome{
 				@extend .one-whole;
@@ -36,32 +36,44 @@
 					@extend .text--center;
 					color: white;
 				}
-				.welcome__twitter-title{
-					font-size: 24px;
-					@extend .text--center;
-					color: white;
-				}
-				.welcome__twitter-form{
+				.welcome__content{
+				color: white;
+				@extend .text--center;	
+			    }
+				.welcome__twitter{
 					@extend .grid;
 					@extend .two-thirds;
 					margin: 0 auto;
-					.welcome__twitter-form-tweet{
+					.welcome__twitter-title{
+					font-size: 24px;
+					@extend .text--center;
+					color: white;
+					}
+					.welcome__twitter-tweet{
 						@extend .one-whole;
 						color: #195342;
+						background-color: white;
+						padding-left: 2%;
 					}
-					.welcome__twitter-form-submit{
-						@extend .two-thirds;
-						margin: 0 auto;
-						display: block;
-						border: none;
-						font-weight: 800;
-						color: white;
-						background: #195342;
-						margin-top: 2%;
-						padding: 5px;
-					}
+					.welcome__twitter-link{
+						text-decoration: none;
+						.welcome__twitter-button{
+							@extend .two-thirds;
+							margin: 0 auto;
+							display: block;
+							border: none;
+							font-weight: 800;
+							color: white;
+							background: #195342;
+							margin-top: 2%;
+							padding: 5px;
+						}	
+					}	
 				}
-			}
+			}	
+		}
+		&.courses{
+			background-color: #03a06c;
 			.skills{
 				@extend .grid;
 				.skills__header-title{
@@ -71,6 +83,20 @@
 					font-size: 24px;
 					color: white;
 					margin-top: 4%
+				}
+				.skills__form{
+					text-align: center;
+					margin-bottom: 2%;
+					.skills__form-button{
+						background-color: #195342;
+						border: none;
+						color: white;
+						font-weight: 800;
+					}
+				}
+				.choose-skills__header{
+					text-align: center;
+					color: white;
 				}
 				.skills__list{
 					@extend .text--center;
@@ -102,6 +128,11 @@
 					@extend .grid;
 					@extend .two-thirds;
 					margin: 0 auto;
+					.error{
+						color: red;
+						font-size: .9em;
+						font-weight: 800;
+					}
 					.contact__form-field{
 						@extend .grid__item;
 						@extend .one-whole;
@@ -130,10 +161,6 @@
 				color: white;
 				@extend .text--center;
 			}
-			.course__schedule{
-				color: white;
-				@extend .text--center;	
-			}
 			.course__lesson-container{
 				@extend .grid;
 				color: white;
@@ -160,4 +187,3 @@
 
 	}
 }
-
