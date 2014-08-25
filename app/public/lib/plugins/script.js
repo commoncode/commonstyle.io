@@ -13,6 +13,7 @@ var commonfullpage = {};
 
 commonfullpage.build = function() {
   $('#fullpage').fullpage({
+    // autoScrolling: false,
     css3: true,
     verticalCentered: false,
     navigation: true,
@@ -26,6 +27,13 @@ commonfullpage.build = function() {
         $('#fp-nav').removeClass( "-light")
       }
     },
+  });
+
+  // deactivate the autScrolling behaviour when interacting with a form, reactivate onBlur
+  $('input, textarea, select').on('focus', function(){
+    $.fn.fullpage.setAllowScrolling(false);
+  }).on('blur', function(){
+    $.fn.fullpage.setAllowScrolling(true);
   });
 
   $('.js-moveSectionDown').click(function(){
